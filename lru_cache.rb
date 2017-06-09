@@ -22,7 +22,7 @@ class LRUCache
 
   def show
     # shows the items in the cache, with the LRU item first
-    cache
+    print cache
   end
 
   private
@@ -48,4 +48,4 @@ johnny_cache.add("I walk the line")
 johnny_cache.add({a: 1, b: 2, c: 3})
 
 
-p johnny_cache.show
+johnny_cache.show
